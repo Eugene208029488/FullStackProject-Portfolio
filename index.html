@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>My Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="row">
+                <div class="col-xs-3">
+                    <img class="title-logo" src="img/Film_Strip_clip_art.svg" alt="Portofolio Logo">
+                </div>
+                <div class="col-xs-9">
+                    <h1 class="title-name text-uppercase text-right">Eugene Gervacio</h1>
+                    <h3 class="text-uppercase text-right no-top-margin"><strong>Movie Critic</strong></h3>
+                </div>
+            </div>
+        </header>
+        <div class="row">
+            <div class="col-md-12">
+                <figure>
+                    <picture>
+                        <source media="(min-width: 800px)" srcset="img/civilwar-2880_large.jpg" />
+                        <source media="(min-width: 500px)" srcset="img/civilwar-1600_med.jpg" />
+                        <img class="img-responsive main-page" src="img/civilwar-800_small.jpg" alt="Captain America: Civil War" data-toggle="modal" data-target="#project1">
+                    </picture>
+                </figure>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="text-muted">Featured Review</h1>
+            </div>
+        </div>
+        <div class="row text-center text-uppercase">
+            <div class="col-md-4">
+                <img class="img-responsive supporting-page" src="img/x-men-apocalypse-800_small.jpg" alt="X-Men: Apocalypse" data-toggle="modal" data-target="#project2">
+                <a href="http://www.imdb.com/title/tt3385516/"><h1><b>X-MEN</b></h1></a>
+            </div>
+            <div class="col-md-4">
+                <img class="img-responsive supporting-page" src="img/doctor_strange-800_small.jpg" alt="Doctor Strange" data-toggle="modal" data-target="#project3">
+                <a href="http://www.imdb.com/title/tt1211837/"><h1><b>strange</b></h1></a>
+            </div>
+            <div class="col-md-4">
+                <img class="img-responsive supporting-page" src="img/tmnt-800_small.jpg" alt="Teenage Mutant Ninja Turtle: Out of the Shadows" data-toggle="modal" data-target="#project4">
+                <a href="http://www.imdb.com/title/tt3949660/"><h1><b>TMNT</b></h1></a>>
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel1"><Strong>Captain America: Civil War</Strong></h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive modal-image" src="img/civilwar-400_small2.jpg" alt="Captain America: Civil War">
+                    <p>Marvel’s “Captain America: Civil War” finds Steve Rogers leading the newly formed team of Avengers in their continued efforts to safeguard humanity. But after another incident involving the Avengers results in collateral damage, political pressure mounts to install a system of accountability, headed by a governing body to oversee and direct the team. The new status quo fractures the Avengers, resulting in two camps—one led by Steve Rogers and his desire for the Avengers to remain free to defend humanity without government interference, and the other following Tony Stark’s surprising decision to support government oversight and accountability.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel2"><Strong>X-Men Apocalypse</Strong></h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive modal-image" src="img/x-men-apocalypse-400_small2.jpg" alt="X-Men: Apocalypse">
+                    <p>With the emergence of the world's first mutant, Apocalypse, the X-Men must unite to defeat his extinction level plan.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel3"><Strong>Doctor Strange</Strong></h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive modal-image" src="img/doctor_strange-400_small2.jpg" alt="Doctor Strange">
+                    <p>After his career is destroyed, a brilliant but arrogant and conceited surgeon gets a new lease on life when a sorcerer takes him under her wing and trains him to defend the world against evil.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="project4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel4" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel4"><Strong>Teenage Mutant Ninja Turtle: Out of the Shadows</Strong></h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive modal-image" src="img/tmnt-400_small2.jpg" alt="Teenage Mutant Ninja Turtle: Out of the Shadows">
+                    <p>The Turtles return to save the city from a dangerous threat.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
